@@ -1,0 +1,59 @@
+.confirm__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.confirm__content > h2 {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.confirm__content > h3 {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.confirm__content > h4 {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.confirm__content > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #7e7d85;
+}
+
+.confirm__content a {
+  color: #2b66ff;
+}
+
+.confirm__content > ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 13px;
+}
+
+.confirm__content > ul > li {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.confirm > button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: #2b66ff;
+  border: none;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}

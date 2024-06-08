@@ -1,0 +1,130 @@
+.about__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #7e7d85;
+}
+
+.about__text > span {
+  color: #2b66ff;
+}
+
+.about__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.about__list > label {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.about__list > h2 {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about__list > label > div {
+  display: flex;
+}
+
+.about__list > label > div svg {
+  color: #7e7d85;
+}
+
+.about__list > label > div b {
+  display: none;
+}
+
+.about__list > label > span {
+  color: #7e7d85;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about__list > label > div > input:checked ~ b {
+  display: block;
+}
+
+.about__list > label > div > input:checked ~ span {
+  display: none;
+}
+
+.about.btn {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 15px;
+  border-radius: 10px;
+  background: #e6e6e6;
+  border: none;
+  color: #a0a0a0;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: not-allowed;
+}
+
+.about.btn.active {
+  background: #2b66ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about.btn > span {
+  flex: 1;
+}
+
+.about.btn > i {
+  font-style: normal;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 4px 7px;
+  color: #a0a0a0;
+}
+
+.about__btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__btn > button {
+  flex: 1;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #e6e6e6;
+  color: #a0a0a0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about__btn > p {
+  width: 90px;
+  text-align: end;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about__btn > p svg {
+  color: #090628;
+  font-size: 22px;
+}
+
+.about__btn > p span {
+  color: #090628;
+  font-size: 16px;
+  font-weight: 500;
+}
